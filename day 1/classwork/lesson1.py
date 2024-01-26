@@ -48,44 +48,4 @@ end_fill()
 
 #HOMEWORK: draw windows and fill in with colour + the door (LETS DO THIS YE)
 
-#LEFT WINDOW
-color("cyan")
-begin_fill()
-penup()
-goto(15, 100)
-pendown()
-
-right(150)
-forward(55)
-
-right(90)
-forward(40) 
-
-right(90)
-forward(55)
-
-right(90)
-forward(40)
-end_fill()
-
-#RIGHT WINDOW
-penup()
-goto(185, 100)
-pendown()
-
-begin_fill()
-forward(40)
-right(90)
-
-forward(55)
-right(90)
-
-forward(40)
-right(90)
-
-forward(55)
-end_fill()
-
-
-
-exitonclick()
+#done in homework file
