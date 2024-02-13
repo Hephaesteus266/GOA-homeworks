@@ -1,51 +1,35 @@
-from turtle import *
+name = "mariam"
+#name არის ცვლადი
+# = არის ცვლადისთვის მნიშვნელობის მიმნიჭებელი სიმბოლო
+# "mariam" არის ცვლადისთვის მნიშვნელობა
 
-#we want to build a house
+surname = "surmanidze"
 
-#step1: draw a square
-speed(30)
-width(7)
-color("indigo")
-forward(200)
-left(90)
+# print (name)
+# პრინტ ფუნქციას გადაეცემა ეკრანზე გამოსატანი ობიექტი
 
-forward(200)
-left(90)
+name = "mariam" #ეს არის str (string) ტიპის ცვლადი
+age = 17 # წს არის int (integer) მთელი რიცხვი
+height = 184.5 # ეს აროს float ტიპის ცვლად (ათწილადი)
+# boolean (bool) ტიპის ცვლადი
 
-forward(200)
-left(90)
+knows_programming = True # True or False
+is_unintelligent = False # snakecase (უბრალოდ წერის ტიპი სტანდარტულად)
 
-forward(200)
-left(90)
-#end of square
-
-#drawing a door
-
-forward(70)
-color("pink")
-begin_fill() #this line of code fills in the shape with colour, although two different shapes have the same colour does not mean we can use this once since it will make a mess of triangles
-left(90)
-forward(120)  #height of the door
-right(90)
-forward(60)
-right(90)
-forward(120)
-end_fill() #ends the process of filling the empty space with colour
-
-penup()
-goto(200, 200)
-pendown()
+isUnintelligent = False # JavaScript type of CamelCase
 
 
-color("red")
-begin_fill()
-right(150)
-forward(200)
-left(120)
-forward(200)
-end_fill()
-end_fill()
+# print ( name + " " + surname )
 
-#HOMEWORK: draw windows and fill in with colour + the door (LETS DO THIS YE)
+# სტრინგი არის ბრჭყალებში მოქცეული სიმბოლოები
+# print (name + age)
 
-#done in homework file
+# print (type(age))
+# print (type(name))
+# print (type(surname))
+# print (type(height))
+# print (type(knows_programming))
+
+print (name + " " + str(age))
+
+#HOMEWORK: create a profile of yourself in one sentence using the info above
