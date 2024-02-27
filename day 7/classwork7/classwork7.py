@@ -61,4 +61,4 @@ print(True or False)
 print(False or True)
 print(False or False)
 
-# homework is to do the above but with numbers. also draw a castle with turtle with a queen and king. + sololearn Module 3 quiz
+# homework is to do the above but with numbers. also draw a castle with turtle with a queen and king. + solo learn Module 3 quiz
