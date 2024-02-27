@@ -26,9 +26,20 @@
 # else: 
 #     print("try again")
 
-score = 95
-if score > 90:
-    print("great job")
-    print("level complete")
+# score = 95
+# if score > 90:
+#     print("great job")
+#     print("level complete")
+# else:
+#     print("Game over")
+
+#user will input a number between 1-1-, ifinput is 5 lets return that he won
+#if the inputted number is 9, he lost 
+number = int(input("please enter the number between 1-10: "))
+
+if number == 5:
+    print("You won")
+elif number == 9:
+    print("you won half prize")
 else:
-    print("Game over")
+    print("you lost")
