@@ -15,9 +15,3 @@ for i in range (1, 21):
     if i % 2 == 0:
         print (i)
 
-# for i in range (1, 101): 
-#     if i % 2 == 0:
-#         label = "Even"
-# else:
-#     label = "Odd"
-# print(f"{i} is {label}")
