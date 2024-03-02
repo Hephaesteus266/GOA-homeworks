@@ -67,4 +67,3 @@ elif age <= 17:
     print("you are a teenager")
 else:
     print("You are an adult")
-    
