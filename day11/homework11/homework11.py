@@ -32,14 +32,22 @@ print("the sum is:", sum)
 
 """ #4 """
 correct_pin = 1234
+authorized = False
 
-pin = int(input("Enter Your correct PIN: "))
 
-if pin == correct_pin:
-    print("welcome to the ATM!")
-    print("1. withdrawal")
-    print("2. deposit")
-    print("3. Balance")
+while authorized != True:
+    pin = int(input("Enter Your correct PIN: "))
+
+    if pin == correct_pin:
+        print("welcome to the ATM!")
+        print("1. withdrawal")
+        print("2. deposit")
+        print("3. Balance")
+    
+    else:
+        print("incorrect PIN, try again later!")
+
+
 
 
 
@@ -51,10 +59,13 @@ username = "Admin"
 user_name = input("Please enter your username: ")
 password = input("Please enter your password: ")
 
+
 if corr_password == password and username == user_name:   #True and True
-    print("Login Successful!")
+     print("Login Successful!")
 else:
     print("login unsuccessful, Try again in a minute!")
+
+
 
 
 
