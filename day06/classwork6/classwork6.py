@@ -10,8 +10,8 @@
 # print("after ten years you will be: " + age)
 # ---------------
 # first lets declare the intended variables
-"""second since we are using integers we will have to "turn the tables" so to speak
-on the input() by using int(input())"""
+"""second since we are using integers we will have to switch
+the input() from string type to integer by using int(input())"""
 
 num1 = int(input("please choose your first number: "))
 num2 = int(input("now your second number: "))
@@ -33,7 +33,7 @@ will be brought forth"""
 print(Answer + str(result))
 
 
-# -----------------------------
+# ----------------------------- (classwork given by prof)
 
 #first we declare string type variables which contain values such as your name and surname
 # we also need to declare the integer type of variable containing the value that is age.

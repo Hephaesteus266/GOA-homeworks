@@ -9,6 +9,9 @@ while num <= 10:
     num += 1
 print(sum)
 
+
+
+
 """ #3 """
 
 numb = 1
@@ -19,12 +22,17 @@ while numb <= 20:
     numb += 1
 
 
+
+
 """ #4 """
 
 for i in range(1, 101):
     if i % 5 == 0:
         print(i)
     i += 1
+
+
+
 
 """ #5 """
 
