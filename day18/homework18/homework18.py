@@ -45,11 +45,7 @@ def get_arithmetic_mean(numbers):
         total += num
     return total / len(numbers)
 
-
-
-
-
-
+#============
 # def filter_arr(start_num, end_num):
 #     numbers= []
 #     filtered_list =[]
@@ -164,4 +160,5 @@ def get_arithmetic_mean(numbers):
 # lastname = input("please enter lastname: ")
 
 # print(even_indexes(lastname))
+
 
