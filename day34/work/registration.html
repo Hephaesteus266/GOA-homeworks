@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title>Instagram Registration Form</title>
+</head>
+<body>
+    <main>
+        <section id="registration">
+
+            <h2>Sign Up for Instagram</h2>
+
+            <form action="/register" method="POST">
+                <!-- Email or Phone Number -->
+                <label for="email-phone">Mobile Number or Email:</label>
+                <input type="text" id="email-phone" name="emailPhone" required>
+                
+                <!-- Full Name -->
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+                
+                <!-- Username -->
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                
+                <!-- Password -->
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <!-- Birthday -->
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday" required>
+                
+                <!-- Terms and Conditions -->
+                <p>By signing up, you agree to our <a href="#">Terms</a>, <a href="#">Data Policy</a> and <a href="#">Cookies Policy</a>.</p>
+                
+                <!-- Submit Button -->
+                <button type="submit">Sign Up</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
